@@ -1,0 +1,29 @@
+the hangman game. (kremala pou len kai sto xwrio mou)
+
+the program takes as an input a word which can contain as many letters as 
+you like and it displays it like this:
+
+petros
+_ _ _ _ _ _
+
+
+then it takes a letter as an input, and if it exists in the word
+it replaces the correct letter.
+
+guess=p
+p _ _ _ _ _
+
+guess=r
+p _ _ r _ _
+
+
+you have 6 lives in total and when you make a mistake the program
+starts "hanging" you:
+  |
+  O
+ /|\    6 lives= 1 head, 1 body, 2 arms, 2 legs
+ / \ 
+
+when you find the solution or you get hanged, the program terminates itself.
+
+good luck.
